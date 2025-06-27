@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buscaminas Uriel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Buscaminas Uriel</h1>
+  <p>Minas restantes: <span id="minas-restantes">10</span></p>
+  <div id="tablero"></div>
+  <p id="mensaje"></p>
+  <!-- Sonidos -->
+  <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+  <audio id="win-sound" src="win.mp3" preload="auto"></audio>
+  <audio id="explosion-sound" src="explosion.mp3" preload="auto"></audio>
+  <!-- Confeti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
