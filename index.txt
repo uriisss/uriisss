@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>8 Juegos + Música y Flores Cayendo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Los 8 Juegos De Uriel</h1>
+    <button id="toggle-sound">🔈 Activar Sonido</button>
+  </header>
+
+  <main>
+    <a href="EL_GATO/index.html" target="_self"><section id="juego1" class="juego">Juego 1: Gato</section></a>
+    <a href="MEMORAMA/index.html" target="_self"><section id="juego2" class="juego">Juego 2: Memorama</section></a>
+    <a href="MEMORAMA MEJORADO/index.html" target="_self"><section id="juego3" class="juego">Juego 3: Memorama Mejorado</section></a>
+    <a href="AJEDREZ/index.html" target="_self"><section id="juego4" class="juego">Juego 4: Ajedrez</section></a>
+    <a href="AHORCADO/index.html" target="_self"><section id="juego5" class="juego">Juego 5: Ahorcado</section></a>
+    <a href="SCRABBLE/index.html" target="_self"><section id="juego6" class="juego">Juego 6: Scrabble</section></a>
+    <a href="BUSCAMINAS/index.html" target="_self"><section id="juego7" class="juego">Juego 7: Buscaminas</section></a>
+    <a href="BUSCAMINAS MEJORADO/index.html" target="_self"><section id="juego8" class="juego">Juego 8: Buscaminas Mejorado</section></a>
+  </main>
+
+  <!-- Música de fondo -->
+  <audio id="musica-fondo" src="musica-videojuego.mp3" loop></audio>
+
+  <!-- Canvas para efecto de flores -->
+  <canvas id="efecto-canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
